@@ -1,3 +1,4 @@
+
 ---
 
 ## Blockchain Technology Overview
@@ -208,8 +209,6 @@ In Solidity, **memory** and **storage** are two distinct data locations used for
   - **Memory**: Ideal for temporary data manipulation within functions.
   - **Storage**: Used for storing contract state variables and data that need to be preserved.
 
-Certainly! Here's the guide you provided, structured using Markdown with added explanations and corrections where necessary:
-
 # Foundry Installation and Usage Guide
 
 **Foundry** is a development framework written in Solidity, commonly used for smart contract development and testing.
@@ -357,7 +356,7 @@ Deploying smart contracts locally using Foundry is straightforward. Below are th
 
 ### 1. Set Up a Local Ethereum Node
 
-First, you'll need a local Ethereum node to deploy your contract to. You can use tools like **Anvil**, which is included with Foundry, or **Ganache**.
+First, you'll need a local Ethereum node to deploy your contract to. You can use a tool like **Anvil**, which is included with Foundry.
 
 #### Using Anvil (Recommended with Foundry)
 
@@ -431,7 +430,7 @@ To deploy your contract on the local Anvil node:
     forge script script/DeploySimpleStorage.s.sol --rpc-url http://127.0.0.1:8545 --private-key <YOUR_PRIVATE_KEY> --broadcast
     ```
 
-    Replace `<YOUR_PRIVATE_KEY>` with the private key from one of the pre-funded accounts provided by Anvil or Ganache.
+    Replace `<YOUR_PRIVATE_KEY>` with the private key from one of the pre-funded accounts provided by Anvil.
 
 ### 5. Verify Deployment
 
