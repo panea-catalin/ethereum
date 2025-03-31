@@ -1,3 +1,7 @@
+# Foundry Installation and Usage Guide
+
+**Foundry** is a development framework written in Solidity, commonly used for smart contract development and testing.
+
 ## Installation Steps
 
 1. **Download Foundry:**
