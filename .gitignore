@@ -1,2 +1,5 @@
 #the unformatted markdown file
 unformatted.md
+
+# Ignore .env file
+.env
