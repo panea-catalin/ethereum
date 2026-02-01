@@ -64,3 +64,13 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# Commit 2/1/2026
+
+Add Scripts that:
+    -DeployFundMe -> Deploy the contract
+    -HelperConfig -> Help decide the chain to run on
+    -Interactions -> To use in the Interactions test
+
+Add Tests that:
+    -Test the funding and withdraw functions and many other functions and state variables
